@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &423825940930304333
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 423825940930304339}
+  - component: {fileID: 423825940930304332}
+  m_Layer: 0
+  m_Name: BuildManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &423825940930304339
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423825940930304333}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 39.222916, y: -26.819744, z: -3.2125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &423825940930304332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423825940930304333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbf176e05bf9a714c9ddc585599b920e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+  money: 50
+  moneypersec: 1
+  buildings:
+  - {fileID: 9164049070017918998, guid: 88bdb275467bcf14784b5c57bda2080e, type: 3}
+  - {fileID: 7799449368047364436, guid: bfdb28045bf08104581a6e75c193187d, type: 3}
+  - {fileID: 1438021456073072274, guid: ca297816a5049dc4b8a47a2514fae723, type: 3}
+  - {fileID: 1737353924494318921, guid: 46feeff6ce8de8c4780b26dbd0f464a2, type: 3}
+  - {fileID: 7379990046720349587, guid: 4652ed19cdbf9044fbc6fb8266fc76c1, type: 3}
+  - {fileID: 7725398076699828866, guid: 3373287d7a272494da71b473dddaf1a9, type: 3}
+  - {fileID: 3359284405304929408, guid: f172ceeef7d58e1448d5a39a1ed9c9f5, type: 3}
+  prices:
+  - 5
+  - 10
+  - 50
+  - 40
+  - 100
+  - 120
+  - 150
+  objectindex: -1
+  targetpos: {fileID: 0}
