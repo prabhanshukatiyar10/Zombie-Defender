@@ -1,5 +1,5 @@
 # Tank Wars
-This Repository contains the Unity3D project done with C#
+This Repository contains the Unity3D project done with C# in the Summer of '20
 ## _Dependencies used_
 - [Unity3D](https://unity3d.com/get-unity/download)
 - [Asset Store](https://assetstore.unity.com/)
